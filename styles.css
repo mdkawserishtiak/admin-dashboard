@@ -260,6 +260,8 @@ button,
 }
 
 .main__heading {
+  margin-bottom: 20px;
+
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -272,7 +274,6 @@ button,
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 30px;
-  margin-top: 20px;
 }
 
 .card {
@@ -294,8 +295,8 @@ button,
   box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
-.card__paragraph {
-  margin-top: 5px;
+.paragraph {
+  margin-top: 4px;
 
   color: gray;
 }
@@ -306,4 +307,18 @@ button,
   gap: 20px;
 
   margin-top: 20px;
+}
+
+.announcements__boxs {
+  padding: 30px;
+  border-radius: 9px;
+
+  background-color: white;
+
+  -webkit-box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.announcements__box {
+  padding: 20px;
 }
